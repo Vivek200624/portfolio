@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>profile web</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+            <script type="text/javascript">
+                (function(){
+                emailjs.init("3aihs0jeP65jaSE7l");
+                })();
+        </script>
+        <script src="script.js"></script>
+    </head>
+    <body bgcolor="blue">
+        <div class="main">
+        <div class="container1">
+            <div class="logo">
+                <img src="photos/photo1.jpeg">
+                <div class="headings">
+                    <a class="h9"><strong>Portfolio</strong></a>   
+                    <a class="h1" href="">Home</a>
+                    <a class="h1" href="">Contact</a>
+                    <a class="h1" href="">About us</a>
+                    <a class="h1" href="https://drive.google.com/file/d/1dO9PYrUe3ccAijxKb0JtuXecA7P6cOgO/view?usp=drivesdk">Resume</a>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="subcontainer1">
+                <div>
+                    <p class="h2"><strong>Hello,</strong></p>
+                    <p class="h3"><strong>My Name Is Nayakam Vivek</strong></p>
+                    <p class="h4"><strong>I'M a Full Stack Developer</strong></p>
+                    <p class="h5">Willing to take challenging positions in my professional work that offers growth
+                        for</p>
+                    <p class="h5">opportunities which allow me utilize my skills and hard work leading to a significant</p>
+                    <p class="h5">contribution for the success of the organization.</p>
+                </div>    
+            </div>
+            <div class="container3">
+                <div class="img1">
+                    <img src="photos/photo1.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="container4">
+            <div>
+                <p class="h6">GET IN TOUCH</p>
+                <div class="a1">
+                    <a class="h7">NAME:</a>
+                    <input class="a2" type="text" id="name" required>
+                    <div class="a1">
+                        <a class="h7">PHONE.NO:</a>
+                        <input class="a2" type="text" id="phone" required>
+                        <div class="a1">
+                            <a class="h7">MAIL ID:</a>
+                            <input class="a2" type="text" id="email" required>
+                            <div class="a1">
+                                <a class="h7">MESSAGE:</a>
+                                <input class="a2" type="text" id="message" required>
+                                <div>
+                                    <button class="h8" type="submit" onclick="sendmail()">send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+    </body>
+</html>
